@@ -10,3 +10,9 @@
 2. 이진 검색 (binary search)
 3. 해시법
 
+
+
+- java.util.Arrays에서 Arrays.binarySearch(배열x, 찾고자하는key)
+- 검색에 성공한 경우: 일치하는 요소 중 무작위의 인덱스를 반환
+- 검색에 실패한 경우: 삽입포인트를 x라고 할 때, -x-1을 반환함
+- 
